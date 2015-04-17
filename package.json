@@ -1,0 +1,20 @@
+{
+  "name": "owski-lens",
+  "version": "0.0.1",
+  "description": "minimal lenses",
+  "main": "lens.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/*.mocha.js"
+  },
+  "keywords": [
+    "lens",
+    "compositional",
+    "functional",
+    "constructive"
+  ],
+  "author": "Ted Cackowski Jr",
+  "license": "MIT"
+}
