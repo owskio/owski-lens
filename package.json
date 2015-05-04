@@ -1,8 +1,8 @@
 {
   "name": "owski-lens",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "minimal lenses",
-  "main": "lens.js",
+  "main": "src/lens.js",
   "directories": {
     "test": "tests"
   },
@@ -16,5 +16,14 @@
     "constructive"
   ],
   "author": "Ted Cackowski Jr",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "eyes": "^0.1.8",
+    "must": "^0.12.0",
+    "owski-apply": "~0.0.5",
+    "owski-curry": "~0.0.6",
+    "owski-expose": "~0.0.5",
+    "owski-lists": "~0.0.1",
+    "owski-primitives": "~0.0.1"
+  }
 }
