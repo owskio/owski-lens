@@ -20,10 +20,10 @@
   "dependencies": {
     "eyes": "^0.1.8",
     "must": "^0.12.0",
-    "owski-apply": "~0.0.5",
-    "owski-curry": "~0.0.6",
-    "owski-expose": "~0.0.5",
-    "owski-lists": "~0.0.1",
-    "owski-primitives": "~0.0.1"
+    "owski-apply": "*",
+    "owski-curry": "*",
+    "owski-expose": "*",
+    "owski-lists": "*",
+    "owski-primitives": "*"
   }
 }

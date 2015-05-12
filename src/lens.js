@@ -10,7 +10,9 @@ require('owski-curry').mport(function(curry,curry2,curry3){
   }),
   // filter = curry3(function(predicate,nextAcc,nextLens,o,prevAcc) {
   //   prevAcc = prevAcc || I;
-  //   return nextLens(prevAcc(o),nextAcc);
+  //   if(predicate(o,prevAcc)){
+  //     return nextLens(prevAcc(o),nextAcc);
+  //   }
   // }),
   traversal = curry3(function(nextAcc,nextLens,o,prevAcc) {
     prevAcc = prevAcc || I;
